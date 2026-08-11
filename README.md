@@ -4,9 +4,11 @@
 
 <br/>
 
-<a href="https://github.com/LyRooy">
-  <img height="180em" src="https://streak-stats.demolab.com?user=LyRooy&theme=radical"/>
-</a>
+<div align="center">
+  <a href="https://github.com/LyRooy">
+    <img height="180em" src="https://streak-stats.demolab.com?user=LyRooy&theme=radical"/>
+  </a>
+</div>
 
 <br/>
 
