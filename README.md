@@ -4,14 +4,9 @@
 
 <br/>
 
-<div align="center">
-  <a href="https://github.com/LyRooy">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=LyRooy&show_icons=true&theme=radical&include_all_commits=true"/>
-  </a>
-  <a href="https://github.com/LyRooy">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LyRooy&layout=compact&theme=radical"/>
-  </a>
-</div>
+<a href="https://github.com/LyRooy">
+  <img height="180em" src="https://streak-stats.demolab.com?user=LyRooy&theme=radical"/>
+</a>
 
 <br/>
 
