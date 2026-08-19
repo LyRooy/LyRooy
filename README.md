@@ -2,7 +2,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Student+%7C+Tech+Enthusiast;Web+Developer;Homelab+Admin;Python+%26+Data+Science" alt="Typing SVG" />
 </div>
 
-<br/
+<br/>
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=LyRooy)](https://git.io/streak-stats)
 
