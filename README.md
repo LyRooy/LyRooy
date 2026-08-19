@@ -6,7 +6,7 @@
 
 <div align="center">
   <a href="https://github.com/LyRooy">
-    <img height="180em" src="https://streak-stats.demolab.com?user=LyRooy&theme=radical"/>
+    <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=LyRooy&theme=radical" alt="GitHub Streak Stats" />
   </a>
 </div>
 
