@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 130" width="600" height="130">
+  <!-- Główne tło okna (GitHub Dark Mode) -->
+  <rect width="600" height="130" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  
+  <!-- Pasek tytułowy Windows Terminal -->
+  <path d="M 0 6 a 6 6 0 0 1 6 -6 h 588 a 6 6 0 0 1 6 6 v 24 h -600 z" fill="#161b22" />
+  <line x1="0" y1="30" x2="600" y2="30" stroke="#30363d" stroke-width="1" />
+
+  <!-- Tytuł karty w oknie -->
+  <text x="12" y="19" fill="#8b949e" font-family="'Segoe UI', Helvetica, sans-serif" font-size="12">WSL: lyrooy@homelab</text>
+
+  <!-- Przyciski okna Windows (Prawa strona) -->
+  <!-- Minimalizuj -->
+  <line x1="530" y1="15" x2="540" y2="15" stroke="#8b949e" stroke-width="1.2"/>
+  <!-- Maksymalizuj (kwadrat) -->
+  <rect x="555" y="10" width="10" height="10" fill="none" stroke="#8b949e" stroke-width="1.2"/>
+  <!-- Zamknij (krzyżyk) -->
+  <line x1="582" y1="10" x2="592" y2="20" stroke="#8b949e" stroke-width="1.2"/>
+  <line x1="592" y1="10" x2="582" y2="20" stroke="#8b949e" stroke-width="1.2"/>
+
+  <!-- Style CSS odpowiadające za animację i kolory -->
+  <style>
+    .text { font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #c9d1d9; }
+    .prompt { fill: #3fb950; font-weight: bold; }
+    .cmd { fill: #58a6ff; }
+    
+    .line1, .line2, .line3, .cursor { opacity: 0; }
+    
+    /* Opóźnienia pojawiania się kolejnych linijek */
+    .line1 { animation: fadeIn 0.1s forwards 0.5s; }
+    .line2 { animation: fadeIn 0.1s forwards 1.5s; }
+    .line3 { animation: fadeIn 0.1s forwards 2.5s; }
+    
+    /* Migający kursor na końcu */
+    .cursor { animation: blink 1s infinite 3s; fill: #c9d1d9; font-weight: bold; }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+  </style>
+
+  <!-- Tekst terminala -->
+  <g transform="translate(15, 60)" class="text">
+    <text x="0" y="0" class="line1">
+      <tspan class="prompt">lyrooy@homelab:~$</tspan> <tspan class="cmd">tail -f /var/log/visitors.log</tspan>
+    </text>
+    
+    <text x="0" y="25" class="line2">
+      > [2026-08-23] Connection established.
+    </text>
+    
+    <text x="0" y="50" class="line3">
+      > Welcome to my digital workspace!<tspan class="cursor">_</tspan>
+    </text>
+  </g>
+</svg>
