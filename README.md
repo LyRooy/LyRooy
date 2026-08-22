@@ -1,4 +1,8 @@
 <div align="center">
+  <img src="./profile/terminal.svg" alt="Terminal Welcome" />
+</div>
+
+<div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=Student+%7C+Tech+Enthusiast;Web+Developer;Homelab+Admin;Python+%26+Data+Science+Enjoyer" alt="Typing SVG" />
 </div>
 
