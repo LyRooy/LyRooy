@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 130" width="600" height="130">
-  <!-- Główne tło okna (GitHub Dark Mode) -->
+  <!-- Główne tło okna -->
   <rect width="600" height="130" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
   
-  <!-- Pasek tytułowy Windows Terminal -->
+  <!-- Pasek tytułowy -->
   <path d="M 0 6 a 6 6 0 0 1 6 -6 h 588 a 6 6 0 0 1 6 6 v 24 h -600 z" fill="#161b22" />
   <line x1="0" y1="30" x2="600" y2="30" stroke="#30363d" stroke-width="1" />
 
-  <!-- Tytuł karty w oknie -->
+  <!-- Tytuł karty -->
   <text x="12" y="19" fill="#8b949e" font-family="'Segoe UI', Helvetica, sans-serif" font-size="12">WSL: lyrooy@homelab</text>
 
-  <!-- Przyciski okna Windows -->
+  <!-- Przyciski okna -->
   <line x1="530" y1="15" x2="540" y2="15" stroke="#8b949e" stroke-width="1.2"/>
   <rect x="555" y="10" width="10" height="10" fill="none" stroke="#8b949e" stroke-width="1.2"/>
   <line x1="582" y1="10" x2="592" y2="20" stroke="#8b949e" stroke-width="1.2"/>
@@ -24,7 +24,6 @@
     
     .line1, .line2, .line3, .cursor { opacity: 0; }
     
-    /* Zdecydowanie szybsze czasy przejść */
     .line1 { animation: fadeIn 0.05s forwards 0.2s; }
     .line2 { animation: fadeIn 0.05s forwards 0.6s; }
     .line3 { animation: fadeIn 0.05s forwards 1.0s; }
@@ -47,7 +46,7 @@
       <tspan class="prompt">lyrooy@workstation:~$</tspan> <tspan class="cmd">ssh homelab</tspan>
     </text>
     
-    <text x="0" y="25" class="line2" class="system">
+    <text x="0" y="25" class="line2 system">
       Connection established. Authenticated to homelab.
     </text>
     
