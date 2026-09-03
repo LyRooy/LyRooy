@@ -9,30 +9,27 @@
   <!-- Tytuł karty w oknie -->
   <text x="12" y="19" fill="#8b949e" font-family="'Segoe UI', Helvetica, sans-serif" font-size="12">WSL: lyrooy@homelab</text>
 
-  <!-- Przyciski okna Windows (Prawa strona) -->
-  <!-- Minimalizuj -->
+  <!-- Przyciski okna Windows -->
   <line x1="530" y1="15" x2="540" y2="15" stroke="#8b949e" stroke-width="1.2"/>
-  <!-- Maksymalizuj (kwadrat) -->
   <rect x="555" y="10" width="10" height="10" fill="none" stroke="#8b949e" stroke-width="1.2"/>
-  <!-- Zamknij (krzyżyk) -->
   <line x1="582" y1="10" x2="592" y2="20" stroke="#8b949e" stroke-width="1.2"/>
   <line x1="592" y1="10" x2="582" y2="20" stroke="#8b949e" stroke-width="1.2"/>
 
-  <!-- Style CSS odpowiadające za animację i kolory -->
+  <!-- Style CSS -->
   <style>
     .text { font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #c9d1d9; }
     .prompt { fill: #3fb950; font-weight: bold; }
     .cmd { fill: #58a6ff; }
+    .system { fill: #8b949e; }
     
     .line1, .line2, .line3, .cursor { opacity: 0; }
     
-    /* Opóźnienia pojawiania się kolejnych linijek */
-    .line1 { animation: fadeIn 0.1s forwards 0.5s; }
-    .line2 { animation: fadeIn 0.1s forwards 1.5s; }
-    .line3 { animation: fadeIn 0.1s forwards 2.5s; }
+    /* Zdecydowanie szybsze czasy przejść */
+    .line1 { animation: fadeIn 0.05s forwards 0.2s; }
+    .line2 { animation: fadeIn 0.05s forwards 0.6s; }
+    .line3 { animation: fadeIn 0.05s forwards 1.0s; }
     
-    /* Migający kursor na końcu */
-    .cursor { animation: blink 1s infinite 3s; fill: #c9d1d9; font-weight: bold; }
+    .cursor { animation: blink 0.8s infinite 1.2s; fill: #58a6ff; font-weight: bold; }
 
     @keyframes fadeIn {
       from { opacity: 0; }
@@ -47,15 +44,15 @@
   <!-- Tekst terminala -->
   <g transform="translate(15, 60)" class="text">
     <text x="0" y="0" class="line1">
-      <tspan class="prompt">lyrooy@homelab:~$</tspan> <tspan class="cmd">tail -f /var/log/visitors.log</tspan>
+      <tspan class="prompt">lyrooy@workstation:~$</tspan> <tspan class="cmd">ssh homelab</tspan>
     </text>
     
-    <text x="0" y="25" class="line2">
-      > [2026-08-23] Connection established.
+    <text x="0" y="25" class="line2" class="system">
+      Connection established. Authenticated to homelab.
     </text>
     
     <text x="0" y="50" class="line3">
-      > Welcome to my digital workspace!<tspan class="cursor">_</tspan>
+      <tspan class="prompt">lyrooy@homelab:~$</tspan> echo "Welcome to my workspace!"<tspan class="cursor">_</tspan>
     </text>
   </g>
 </svg>
