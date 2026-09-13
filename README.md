@@ -26,6 +26,12 @@
 
 <br/>
 
+<!-- Nagłówki nad sekcjami -->
+<div align="center">
+  <h3>Technology Footprint</h3>
+  <h3>Languages & Tools</h3>
+</div>
+
 <!-- Widżety obok siebie: Większy Donut Chart i Tech Stack -->
 <div align="center">
   <img src="stats/languages.svg" alt="Language Stats" width="420" />
