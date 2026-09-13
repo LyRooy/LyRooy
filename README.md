@@ -26,17 +26,19 @@
 
 <br/>
 
-<!-- Nagłówki nad sekcjami -->
-<div align="center">
-  <h3>Technology Footprint</h3>
-  <h3>Languages & Tools</h3>
-</div>
-
-<!-- Widżety obok siebie: Większy Donut Chart i Tech Stack -->
-<div align="center">
-  <img src="stats/languages.svg" alt="Language Stats" width="420" />
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,js,go,docker,cloudflare,linux&theme=dark&perline=3" alt="Tech Stack" />
-  </a>
-</div>
+<table align="center" border="0">
+  <tr>
+    <td align="center"><b>Technology Footprint</b></td>
+    <td align="center"><b>Tech Stack</b></td>
+  </tr>
+  <tr>
+    <td align="center" valign="top">
+      <img src="stats/languages.svg" alt="Language Stats" width="420" />
+    </td>
+    <td align="center" valign="top">
+      <a href="https://skillicons.dev">
+        <img src="https://skillicons.dev/icons?i=py,js,go,docker,cloudflare,linux&theme=dark&perline=3" alt="Tech Stack" />
+      </a>
+    </td>
+  </tr>
+</table>
