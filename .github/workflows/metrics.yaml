@@ -15,7 +15,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: stats/donut_by_repos.svg
+          filename: stats/languages.svg
           base: ""
           # Ograniczenie wyłącznie do Twoich własnych repozytoriów oraz tych, gdzie faktycznie masz commity
           repositories_affiliations: owner, collaborator
