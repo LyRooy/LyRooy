@@ -23,3 +23,14 @@
     <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/LyRooy/LyRooy/output/github-contribution-grid-snake.svg">
   </picture>
 </div>
+
+<br/>
+
+<!-- Widżety obok siebie: Języki (Lewa) i Tech Stack (Prawa) -->
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LyRooy&theme=radical&layout=compact&hide_empty=true&card_width=350" alt="Top Languages" />
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=py,js,go,docker,cloudflare,linux&theme=dark&perline=3" alt="Tech Stack" />
+  </a>
+</div>
