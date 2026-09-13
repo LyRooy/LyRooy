@@ -26,9 +26,9 @@
 
 <br/>
 
-<!-- Widżety obok siebie: Języki (Lewa) i Tech Stack (Prawa) -->
+<!-- Widżety obok siebie: Większy Donut Chart i Tech Stack -->
 <div align="center">
-  <img src="stats/languages.svg" alt="Language Stats" width="300" />
+  <img src="stats/languages.svg" alt="Language Stats" width="420" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=py,js,go,docker,cloudflare,linux&theme=dark&perline=3" alt="Tech Stack" />
