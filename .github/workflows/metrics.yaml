@@ -9,13 +9,21 @@ permissions:
   contents: write
 
 jobs:
-  update-stats:
+  github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: StefVuck/Github-Language-Stats@v1.2.0
+      - uses: lowlighter/metrics@latest
         with:
-          github_token: ${{ secrets.METRICS_TOKEN }}
-          visualization_types: "donut"
-          theme: dark
-          output_path: "stats"
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: stats/donut_by_repos.svg # Generuje plik SVG pod wskazaną ścieżką
+          base: ""
+          plugin_languages: yes
+          plugin_languages_ignored: html, css
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_sections: most-used
+          plugin_languages_other: yes
+          plugin_languages_limit: 8
+          config_timezone: Europe/Warsaw
+          # Stylizacja na ciemny motyw i wykres kołowy
+          config_order: base.metadata, plugin.languages
+          style: eggenschwiler # Przejrzysty styl z donutem / statystykami
