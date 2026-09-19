@@ -33,7 +33,7 @@
   </tr>
   <tr>
     <td align="center" valign="top">
-      <img src="stats/languages.svg" alt="Language Stats" width="420" />
+      <img src="stats/languages.svg" alt="Languages Stats" width="420" />
     </td>
     <td align="center" valign="top">
       <a href="https://skillicons.dev">
